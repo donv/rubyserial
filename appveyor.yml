@@ -2,6 +2,7 @@ install:
   - gem install bundler
   - bundle install
   - cinst com0com
+  - shutdown -r
 
 build_script:
   - rspec spec
